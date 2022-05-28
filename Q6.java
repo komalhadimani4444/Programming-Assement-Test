@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Q6 {
     public static void main(String[] args) {
-        String[] list={"Alice", "Noah", "Bob", "Bob", "Alice", "Adam", "Ava"};
+        String[] list={"Alice", "Noah", "Bob"};
         String temp;
         for(int i=0;i<list.length;i++){
             for (int j = i + 1; j < list.length;j++) {
